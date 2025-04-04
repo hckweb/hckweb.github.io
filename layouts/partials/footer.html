@@ -1,0 +1,19 @@
+<footer>
+    <hr />
+    {{- partial "inject/footer.html" . -}}
+    {{- partial "footer_columns.html" . -}}
+    <p><small>
+        {{ now.Format "2006" }} &copy; {{ .Site.Copyright | markdownify }}
+    </small></p>
+    <p><small>
+        {{ i18n "themeCopyrightNotice" | safeHTML }}
+    </small></p>
+    <p><small>
+        <a href="https://github.com/hckweb/hckweb.github.io" target="_blank">
+            Hosted by GitHub Pages.
+        </a>
+    </small></p>
+    <div style="text-align: center; margin-top: 2rem;">
+        <img src="{{ "logo.svg" | relURL }}" alt="Logo" style="max-width: 120px; opacity: 0.7;">
+    </div>
+</footer>
