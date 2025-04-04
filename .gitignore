@@ -1,0 +1,32 @@
+# Hugo generated outputs
+/public/
+/resources/_gen/
+
+# Hugo working files
+.hugo_build.lock
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+*.env.local
+
+# Test data and reports
+/testdata/
+/coverage.html
+
+# Node.js dependencies (if theme uses npm)
+/node_modules/
+
+# Hugo Module cache (for Go modules)
+/go/pkg/mod/
+
+# Hugo server working files (Hugo 0.93+)
+.hugo/
