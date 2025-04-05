@@ -1,0 +1,21 @@
+<!-- layouts/partials/comments.html -->
+{{ if and (.Site.Params.giscus.enable) (default true .Params.comments) }}
+<div class="giscus">
+    <script src="https://giscus.app/client.js"
+        data-repo="hckweb/hckweb.github.io-comments"
+        data-repo-id="R_kgDOOUQiuw"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOOUQiu84Coy4n"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark_dimmed"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+    </script>
+</div>
+{{ end }}
+

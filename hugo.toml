@@ -44,3 +44,6 @@ copyright = "This work by [Cem KOC](https://hckweb.github.io/) is licensed under
 
 [outputs]
     home = ["HTML", "JSON"]
+
+[params.giscus]
+    enable = true
